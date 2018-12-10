@@ -1,6 +1,13 @@
+<h1>{{acc}}</h1>
 <ul>
-  <li><button (click)="interval()">interval(1000)</button></li>
-  <li><button (click)="buttonClick()">of(1,2,3,4)</button></li>
-  <li><button (click)="timer()">timer()</button></li>
-  <li><button (click)="defaultIfEmpty()">defaultIfEmpty()</button></li>
+  <li>
+    <button  mat-raised-button color="primary" (click)="interval()">interval(1000)</button></li>
+  <li><button mat-raised-button color="primary" (click)="buttonClick()">of(1,2,3,4)</button></li>
+  <li><button mat-raised-button color="primary" (click)="timer()">timer()</button></li>
+  <li><button mat-raised-button color="primary" (click)="defaultIfEmpty()">defaultIfEmpty()</button></li>
+  <li><button mat-raised-button color="primary" (click)="stop()">stop()</button></li>
+  <li><button mat-raised-button color="primary" (click)="merge()">merge()</button></li>
+  <li><button mat-raised-button color="primary" (click)="reduce()">reduce()</button></li>
+  <li><button mat-raised-button color="primary" (click)="find()">find()</button></li>
+  <li><button mat-raised-button color="primary" (click)="filter()">filter()</button></li>
 </ul>
